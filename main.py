@@ -61,8 +61,11 @@ st.markdown("### 📊 데이터 보기")
 st.dataframe(top10.style.background_gradient(cmap="Blues"))
 
 # -------------------------------
-# 6. 추가 기능 (선택)
+# 6. 추가 정보
 # -------------------------------
 st.markdown("---")
-st.markdown("📈 데이터 출처: countriesMBTI_16types.csv  
-💡 제작: Streamlit + Altair | 시각화 색상 테마: TealBlues")
+st.markdown(
+    "📈 **데이터 출처:** `countriesMBTI_16types.csv`  \n"
+    "💡 **제작:** Streamlit + Altair  \n"
+    "🎨 **테마:** TealBlues"
+)
