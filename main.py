@@ -65,7 +65,7 @@ st.dataframe(top10.style.background_gradient(cmap="Blues"))
 # -------------------------------
 st.markdown("---")
 st.markdown(
-    "📈 **데이터 출처:** `countriesMBTI_16types.csv`  \n"
+    "📈 **데이터 출처:** `C:\Users\allth\Downloads\countriesMBTI_16types.csv`  \n"
     "💡 **제작:** Streamlit + Altair  \n"
     "🎨 **테마:** TealBlues"
 )
